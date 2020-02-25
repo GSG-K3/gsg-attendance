@@ -42,17 +42,7 @@ CREATE TABLE Attendances
 );
 
 
-INSERT into Attendances
-    (student_id,mentor_Id,course_Id,AttendDate,AttendAt)
-VALUES(1, 1, 1, TO_DATE('2020/02/25' , 'YYYY/MM/DD'), '9:45');
 
-INSERT into Attendances
-    (student_id,mentor_Id,course_Id,AttendDate,AttendAt)
-VALUES(2, 2, 1, TO_DATE('2020/02/25' , 'YYYY/MM/DD'), '9:45');
-
-INSERT into Attendances
-    (student_id,mentor_Id,course_Id,AttendDate,AttendAt)
-VALUES(3, 2, 1, TO_DATE('2020/02/25' , 'YYYY/MM/DD'), '9:45');
 
 
 
@@ -85,6 +75,18 @@ VALUES
     ('K3');
 
 
+
+INSERT into Attendances
+    (student_id,mentor_Id,course_Id,AttendDate,AttendAt)
+VALUES(1, 1, 1, TO_DATE('2020/02/25' , 'YYYY/MM/DD'), '9:45');
+
+INSERT into Attendances
+    (student_id,mentor_Id,course_Id,AttendDate,AttendAt)
+VALUES(2, 2, 1, TO_DATE('2020/02/25' , 'YYYY/MM/DD'), '9:45');
+
+INSERT into Attendances
+    (student_id,mentor_Id,course_Id,AttendDate,AttendAt)
+VALUES(3, 2, 1, TO_DATE('2020/02/25' , 'YYYY/MM/DD'), '9:45');
 
 
 COMMIT;
