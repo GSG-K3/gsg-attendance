@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GSG Attenndance</title>
     <link href="/css/main.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header class="navbar">
         <div class="container">
             <div class="row">
@@ -30,107 +31,98 @@
 
             </div>
         </div>
-      </div>
+        </div>
     </header>
 
     <div class="maindiv">
-      <section class="courseSection">
-        <div class="container">
-          <div class="row" id="courses">
-          </div>
-        </div>
-      </section>
-      <hr />
-      <section class="AddAttendanceSection">
-        <h1>Add Attendances</h1>
-        <div class="container">
-          <div class="attendance">
-            <div class="row">
-              <div class="input-group">
-                <label>Current Date</label>
-                <input
-                  readonly
-                  id="CurrentDate"
-                  value=""
-                  class="form-control"
-                />
-              </div>
-
-              <div class="input-group">
-                <label>Current Time</label>
-                <input
-                  readonly
-                  id="CurrentTime"
-                  value=""
-                  class="form-control"
-                />
-              </div>
-
-              <div class="input-group">
-                <label>Mentors</label>
-                <select name="" id="mentors_list"> </select>
-              </div>
+        <section class="courseSection">
+            <div class="container">
+                <div class="row" id="courses">
+                </div>
             </div>
-            <div class="row">
-              <div class="student">
-                <table>
-                  <tr class="table__header">
-                    <th scope="col">#</th>
-                    <th scope="col">Student Name</th>
-                    <th scope="col">Course Name</th>
-                    <th scope="col">Mentors Name</th>
-                    <th scope="col">Time</th>
-                    <th scope="col"></th>
-                  </tr>
+        </section>
+        <hr />
+        <section id="AddAttendance" class="AddAttendanceSection " style="display: none;">
+            <h1>Add Attendances</h1>
+            <div class="container">
+                <div class="attendance">
+                    <div class="row">
+                        <div class="input-group">
+                            <label>Current Date</label>
+                            <input readonly id="CurrentDate" value="" class="form-control" />
+                        </div>
 
-                  <tr>
-                    <td scope="col">1</td>
-                    <td scope="col">Yakoob</td>
-                    <td scope="col">K3</td>
-                    <td scope="col">Matt</td>
-                    <td scope="col">9:45 AM</td>
-                    <td scope="col" class="btns">
-                      <button id="addAttendance" class="btn btn-blue">
-                        Attend
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </td>
-                  </tr>
+                        <div class="input-group">
+                            <label>Current Time</label>
+                            <input readonly id="CurrentTime" value="" class="form-control" />
+                        </div>
 
-                  <tr>
-                    <td scope="col">1</td>
-                    <td scope="col">Yakoob</td>
-                    <td scope="col">K3</td>
-                    <td scope="col">Matt</td>
-                    <td scope="col">9:45 AM</td>
-                    <td scope="col" class="btns">
-                      <button id="addAttendance" class="btn btn-blue">
-                        Attend
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="col">1</td>
-                    <td scope="col">Yakoob</td>
-                    <td scope="col">K3</td>
-                    <td scope="col">Matt</td>
-                    <td scope="col">9:45 AM</td>
-                    <td scope="col" class="btns">
-                      <button id="addAttendance" class="btn btn-blue">
-                        Attend
-                        <i class="fas fa-plus"></i>
-                      </button>
-                    </td>
-                  </tr>
-                </table>
-              </div>
+                        <div class="input-group">
+                            <label>Mentors</label>
+                            <select name="" id="mentors_list"> </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="student">
+                            <table id='std_table'>
+                                <tr class="table__header">
+                                    <th scope="col">#</th>
+                                    <th scope="col">Student Name</th>
+                                    <th scope="col">Course Name</th>
+                                    <th scope="col">Mentors Name</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col"></th>
+                                </tr>
+
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Yakoob</td>
+                                    <td scope="col">K3</td>
+                                    <td scope="col">Matt</td>
+                                    <td scope="col">9:45 AM</td>
+                                    <td scope="col" class="btns">
+                                        <button id="addAttendance" class="btn btn-blue">
+                                            Attend
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Yakoob</td>
+                                    <td scope="col">K3</td>
+                                    <td scope="col">Matt</td>
+                                    <td scope="col">9:45 AM</td>
+                                    <td scope="col" class="btns">
+                                        <button id="addAttendance" class="btn btn-blue">
+                                            Attend
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="col">1</td>
+                                    <td scope="col">Yakoob</td>
+                                    <td scope="col">K3</td>
+                                    <td scope="col">Matt</td>
+                                    <td scope="col">9:45 AM</td>
+                                    <td scope="col" class="btns">
+                                        <button id="addAttendance" class="btn btn-blue">
+                                            Attend
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </div>
     <script src="/js/apiCall.js"></script>
     <script src="/js/index.js"></script>
-  </body>
+</body>
+
 </html>
