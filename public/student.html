@@ -19,7 +19,7 @@
                 <nav class="navbar__nav col-6">
                     <a href="/">Home</a>
                     <a href="/Attendances">Attendances</a>
-                    <a href="/student">Students</a>
+                    <a href="/Students">Students</a>
                 </nav>
 
 
@@ -49,29 +49,18 @@
         </section>
         <hr>
         <section class="AddAttendanceSection">
-            <h1> Add Attendances </h1>
+            <h1> Students </h1>
             <div class='container'>
                 <div class="attendance">
-                    <div class='row'>
-                        <div class='input-group'>
-                            <label>Current Date</label>
-                            <input readonly id="CurrentDate" value="" class="form-control" />
-                        </div>
-
-                        <div class='input-group'>
-                            <label>Current Time</label>
-                            <input readonly id="CurrentTime" value="" class='form-control' />
-                        </div>
-                    </div>
+            
                     <div class='row'>
                         <div class="student">
-                            <table>
+                            <table id="std_table">
                                 <tr class="table__header">
                                     <th scope="col">#</th>
                                     <th scope="col">Student Name</th>
-                                    <th scope="col">Course Name</th>
-                                    <th scope="col">Mentors Name</th>
-                                    <th scope="col">Time</th>
+                                    <th scope="col">City</th>
+                                   
                                     <th scope="col"></th>
                                 </tr>
 
@@ -80,35 +69,6 @@
                                     <td scope="col">1</td>
                                     <td scope="col">Yakoob</td>
                                     <td scope="col">K3</td>
-                                    <td scope="col">Matt</td>
-                                    <td scope="col">9:45 AM</td>
-                                    <td scope="col" class="btns">
-                                        <button class="btn btn-blue">
-                                            Attend
-                                            <i class="fas fa-plus"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td scope="col">1</td>
-                                    <td scope="col">Yakoob</td>
-                                    <td scope="col">K3</td>
-                                    <td scope="col">Matt</td>
-                                    <td scope="col">9:45 AM</td>
-                                    <td scope="col" class="btns">
-                                        <button class="btn btn-blue">
-                                            Attend
-                                            <i class="fas fa-plus"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td scope="col">1</td>
-                                    <td scope="col">Yakoob</td>
-                                    <td scope="col">K3</td>
-                                    <td scope="col">Matt</td>
-                                    <td scope="col">9:45 AM</td>
                                     <td scope="col" class="btns">
                                         <button class="btn btn-blue">
                                             Attend
@@ -128,7 +88,7 @@
         </section>
     </div>
     <script src="/js/apiCall.js"></script>
-    <script src="/js/index.js"></script>
+    <script src="/js/student.js"></script>
 </body>
 
 </html>
