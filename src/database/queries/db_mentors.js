@@ -9,10 +9,11 @@ const getMentorsData = (callback) => {
             console.log(err, 'error');
             callback(err);
         } else {
-            console.log('Mentors database catched');
+            console.log('Got DB mentor');
             callback(result.rows);
         }
 
     })
 }
+
 module.exports=getMentorsData;
