@@ -6,6 +6,6 @@ apiCall = (method, url, callback) => {
       if (typeof callback === 'function') callback(xhr.responseText);
     }
   };
-  xhr.send(method, url);
-  xhr.open();
+  xhr.open(method, url);
+  xhr.send();
 };
