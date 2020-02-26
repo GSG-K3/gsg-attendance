@@ -1,5 +1,4 @@
 const xhr = new XMLHttpRequest();
-
 apiCall = (method, url, callback) => {
   xhr.onreadystatechange = () => {
     if (xhr.readyState === 4 && xhr.status === 200) {
