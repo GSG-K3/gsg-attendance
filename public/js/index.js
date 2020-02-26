@@ -10,3 +10,7 @@ window.addEventListener('load', () => {
       now.getHours() + ' : ' + now.getMinutes();
   }, 1000);
 });
+
+apiCall('get', '/api/mentor/getMentorsData', response => {
+  console.log(response);
+});
