@@ -18,7 +18,7 @@ The project serve the mentors of GSG by tracking the attendance of students in t
 3- create db in heroku <br>
 4- create config.env <br>
 5- get the db connection and add the connection in config.env<br>
-6- to create db run this command in terminal <br>
+6- to create db run this command in terminal: <br>
     - in win : node  node src\database\db_build.js<br>
     - in linux : node src/database/db_build.js<br>
 7- run server : npm start <br>
