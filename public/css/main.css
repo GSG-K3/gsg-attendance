@@ -258,6 +258,10 @@ td {
   color: #007bff;
 }
 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 /*====== media Query==========*/
 
 /* Extra small devices (phones, 600px and down) */
