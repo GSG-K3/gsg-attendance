@@ -8,8 +8,8 @@ The project serve the mentors of GSG by tracking the attendance of students in t
 - from the above menu the user can display all Attendances and all Students.
 
 ## Schema
-
-![image](https://user-images.githubusercontent.com/56412800/75423111-b9eb2680-5946-11ea-994e-1ff80868179b.png)<br>
+![image](https://user-images.githubusercontent.com/56412800/75424095-b062be00-5948-11ea-858a-ded633522a22.png)
+<br>
 
 
 ## How to Run 
