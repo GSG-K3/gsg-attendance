@@ -13,8 +13,8 @@ The project serve the mentors of GSG by tracking the attendance of students in t
 
 
 ## How to Run 
-1- clone the Reqo 
-2- run command : npm i.
+1- clone the Reqo <br>
+2- run command : npm i.<br>
 3- create db in heroku 
 4- create config.env 
 5- get the db connection and add the connection in config.env
