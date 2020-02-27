@@ -51,6 +51,7 @@ insert into mentors
 VALUES
     ('Isaac'),
     ('Farah'),
+    ('Haneen'),
     ('Matt'),
     ('Yousef'),
     ('Duaa'),
